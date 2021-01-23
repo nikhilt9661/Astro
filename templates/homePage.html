@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/css/homePage.css">
+</head>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"><img src="./static/images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa fa-bars"></i>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav text-center mr-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Service</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#card-section" >
+                    Horoscopes
+                  </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-us">About us</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li> -->
+              </ul>
+            </div>
+            <p class="user-name">Nikhil Thakur</p>
+            <button class="user-btn"><i class="fa fa-user" aria-hidden="true"></i></button>
+          </nav>
+        </section>
+        <!-- Banner Section -->
+        <section id="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="promo-title">BEST ASTOLOGY WEBSITE </p>
+                        <p>Subscribe Astology website channel </p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="./static/images/hand.png" alt="">
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave">
+            <path fill="#fff" fill-opacity="1" d="M0,128L60,112C120,96,240,64,360,80C480,96,600,160,720,202.7C840,245,960,267,1080,266.7C1200,267,1320,245,1380,234.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+        </svg>
+        <!-- <section id="horoscope">
+            <div class="container text-center">
+                <h1 class="title">HOROSCOPES</h1>
+                <div class="row">
+                    <div class="col-md-4 horoscope text-center">
+                        <img src="./static/images/capricorn1.png" alt="" class="horoscope-img">
+                        <h4>Capricorn</h4>
+                        <p>Today the start of the day may be a dull day. After late evening, you may control negativity. new people may connect you in the work front. With the help of new people, you may try to revamp your business plans. It is advised to read documents before putting your signature.</p>
+                    </div>
+                    <div class="col-md-4 horoscope text-center">
+                        <img src="./static/images/aquarious.png" alt="" class="horoscope-img">
+                        <h4>Aquarious</h4>
+                        <p>Today the start of the day may be a dull day. After late evening, you may control negativity. new people may connect you in the work front. With the help of new people, you may try to revamp your business plans. It is advised to read documents before putting your signature.</p>
+                    </div>
+                    <div class="col-md-4 horoscope text-center">
+                        <img src="./static/images/capricorn1" alt="" class="horoscope-img">
+                        <h4>Aris</h4>
+                        <p>Today the start of the day may be a dull day. After late evening, you may control negativity. new people may connect you in the work front. With the help of new people, you may try to revamp your business plans. It is advised to read documents before putting your signature.</p>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary">All Horoscope</button>
+            </div>
+        </section> -->
+
+        <section id="card-section" class="text-center">
+            <div class="container text-center">
+                <h1 class="title"> HOROSCOPES</h1>
+                  <div class="row">
+                    <div class="col-md-3 col-sm-6 item text-center">
+                      <div class="card item-card card-block">
+                       <img src="./static/images/capricorn1.png" class="horoscope-img" >
+                        <h5 class="card-title  mt-3 mb-3">CAPRICORN</h5>
+                        <p class="card-text">Today the start of the day may be a dull day. After late evening, you may control negativity. new people may connect you in the work front. With the help of new people, you may try to revamp your business plans. It is advised to read documents before putting your signature.</p> 
+                        <button type="button" class="btn btn-primary btn-card" data-toggle="modal" data-target="#exampleModalLong">Details</button>
+                    </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 item text-center">
+                        <div class="card item-card card-block">
+                        <img src="./static/images/aquarious.png" class="horoscope-img" alt="Photo of sunset">
+                          <h5 class="card-title  mt-3 mb-3">Aquarious</h5>
+                          <p class="card-text">Today, with the help of blessings, you may control over your ..
+                            Today, with the help of blessings, you may control over your indecisiveness. Kids' health is better now. Your colleagues may be supportive in your work, which will convert into success in terms of the project. You may expect to get some incentives with the salary. Natives related to dairy, water projects, grains, homemaker art and culture may do good. </p> 
+                          <button type="button" class="btn btn-primary btn-card" data-toggle="modal" data-target="#exampleModalLong">Details</button>
+                    </div>
+                      </div>
+                    <div class="col-md-3 col-sm-6 item text-center">
+                      <div class="card item-card card-block">
+                        <img src="./static/images/pisces.png" alt="Photo of sunset">
+                        <h5 class="card-title  mt-3 mb-3">PISCES</h5>
+                        <p class="card-text">Today, you may be busy in the family to get together and social events, you may become polite with the people around you, which may increase your prestige among them. You may spend money on buying some artefacts or household stuff which may improve your social status. you may likely hear some good news from one of your relatives. </p> 
+                        <button type="button" class="btn btn-primary btn-card" data-toggle="modal" data-target="#exampleModalLong">Details</button>
+                    </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 item text-center">
+                      <div class="card item-card card-block">
+                        <img src="./static/images/libra.png" alt="Photo of sunset">
+                        <h5 class="card-title  mt-3 mb-3">LIBRA</h5>
+                        <p class="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p> 
+                        <button type="button" class="btn btn-primary btn-card" data-toggle="modal" data-target="#exampleModalLong">Details</button>
+                    </div>
+                    </div>    
+                  </div>
+                  
+                  
+                </div>
+                <button type="button" class="btn btn-primary all-horoscope">All Horoscope</button>
+        </section>
+        <section id="about-us">
+            <div class="container">
+                <h1 class="title text-center">WHY CHOOSE WITH US?</h1>
+                <div class="row">
+                    <div class="col-md-6 about-us">
+                        <p class="about-title">Why we're different</p>
+                        <ul>
+                            <li>Belive in doing business with honesty</li>
+                            <li>Belive in doing business with better accuracy</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./static/images/as1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href="#" class="float">
+            <i class="far fa-comment my-float"></i>
+            <!-- <i class="fa fa-envelope my-float"></i> -->
+            </a>
+            <div class="label-container">
+            <div class="label-text">Chat</div>
+            <i class="fa fa-play label-arrow"></i>
+            </div>
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave">
+            <path fill="#fff" fill-opacity="1" d="M0,32L40,64C80,96,160,160,240,181.3C320,203,400,181,480,154.7C560,128,640,96,720,101.3C800,107,880,149,960,170.7C1040,192,1120,192,1200,202.7C1280,213,1360,235,1400,245.3L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+          </svg> -->
+          <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="./static/images/capricorn1.png" class="modal-img" alt="">
+                  <h4>Capricorn</h4>
+                  <p>
+                    Today the start of the day may be a dull day. After late evening, you may control negativity. new people may connect you in the work front. With the help of new people, you may try to revamp your business plans. It is advised to read documents before putting your signature.
+                  </p>
+                </div>
+                <div class="modal-footer text-center">
+                    
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Footer -->
+<footer class="bg-light text-center text-lg-start">
+    
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2021 Astology:
+      
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+    <script src="./static/js/jquery.min.js"></script>
+    <script src="./static/js/popper.min.js"></script>
+    <script src="./static/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/64d58efce2.js"></script>
+</body>
+</html>
